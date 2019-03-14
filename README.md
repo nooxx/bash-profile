@@ -1,5 +1,5 @@
 # Bash default profile
-Nice colours, command auto completion and some useful git shortcuts from your unix terminal.
+Nice colours, command auto completion and some useful git shortcuts for your unix terminal.
 
 ## Installation on MacOS
 Clone repository:
