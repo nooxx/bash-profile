@@ -9,3 +9,14 @@ function gitp() {
     gitc "$1"
     git push
 }
+
+function gm() {
+   git checkout "$1"
+   git merge "$2"
+   git push
+   git checkout "$2"
+}
+
+function webp(){
+   `for file in "$1"/*; do cwebp -q 50 "$file" -o "${file%.*}.webp"; done`
+}

@@ -1,2 +1,10 @@
 alias ll='ls -al';
 alias gs='git status';
+
+alias ndev='netlify dev'
+alias gbuild='gatsby build'
+alias gserve='gatsby serve'
+alias gdev='gatsby develop -o'
+alias gclean='gatsby clean'
+alias art='php artisan'
+alias comp='composer'
